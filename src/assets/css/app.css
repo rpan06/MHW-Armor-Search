@@ -5,39 +5,82 @@
 
 body {
     margin: 0;
+    background-color:black;
+    color: rgb(49, 244, 49);
 }
 
-.app {
-    background-color: #000;
-    color: #FFF;
-    font-family: quest;
-    font-size: 30px;
-    padding: 50px;
-    text-align: center;
-}
+.MainContainer{
+    border-style: solid;
+    border-color: red;
+    width:35%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    float:left;
 
-.app .logo {
-    height: 220px;
-    filter: drop-shadow(2px 2px 0px #FFF);
 }
+.WeaponContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
 
-.app h1 {
-    color: #61DAFB;
-    font-size: 5em;
-    letter-spacing: 5px;
-    margin: 0.16em;
-    text-shadow: 2px 2px 0 #FFF;
 }
+.HelmContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
 
-.rotate {
-    animation: spin 10s linear infinite;
 }
+.ChestContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+}
+.ArmContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
+
+}
+.WaistContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
+
+}
+.LegContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
+
+
+}
+.CharmContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
+
+}
+.ResultContainer{
+    border-style: solid;
+    border-color: red;
+    width:60%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    float:right;
+
+}
+.AttackContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
+
+}
+.DefenseContainer{
+    border-style: solid;
+    border-color: blue;
+    flex: 1 0 auto;
+
 }
