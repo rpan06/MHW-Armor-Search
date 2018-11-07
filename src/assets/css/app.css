@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 body {
     margin: 0;
     background-color:black;
     color: rgb(112, 169, 88);
+    font-family: 'Roboto Slab', serif;
 }
 
 .MainContainer{
@@ -17,7 +20,7 @@ body {
 }
 
 .MainContainerText{
-    
+
 
 }
 
